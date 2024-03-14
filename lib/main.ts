@@ -15,6 +15,7 @@ import { NODE_INTERFACE_ADDRESS } from '@arbitrum/sdk/dist/lib/dataEntities/cons
 import { Buffer } from 'buffer'
 globalThis.Buffer = Buffer
 
+export * from './gas-estimator.ts'
 export function setupCounter(element: HTMLButtonElement) {
     // 测试方法
     let counter = 0
